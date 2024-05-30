@@ -1,5 +1,5 @@
 import "./App.css";
-import { Footer, Navbar } from "./components";
+import { ContactUs, Footer, Navbar } from "./components";
 import { Outlet } from "react-router-dom";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 		<>
 			<Navbar />
 			<Outlet />
+			<ContactUs />
 			<Footer />
 		</>
 	);
